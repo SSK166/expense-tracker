@@ -1,0 +1,5 @@
+spring.data.mongodb.uri=mongodb://localhost:27017/expense_tracker
+jwt.secret=expense-tracker-secret-key-make-this-long-enough-for-256-bits
+jwt.expiration=86400000
+server.port=8080
+spring.web.cors.allowed-origins=http://localhost:5173
